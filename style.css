@@ -23,10 +23,14 @@
     font-weight: 500;
     margin-top: -50px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .hero h1 span{
-    color: #ff2963;
+    color:orange;
+    /* color: #ff2963; */
+    text-align: center;
+
 
 }
 
@@ -42,6 +46,9 @@ textarea{
     border-radius: 10px;
     resize: none;
     margin-bottom: 30px;
+    margin-left: 28%;
+
+
 }
 
 textarea::placeholder{
@@ -57,7 +64,8 @@ textarea::placeholder{
 }
 
 button{
-    background: #ff2963;
+    background: orange;
+    /* background: #ff2963; */
     color: #fff;
     font-size: 16px;
     padding: 10px 30px;
@@ -67,6 +75,7 @@ button{
     cursor: pointer;
     display: flex;
     align-items: center;
+    margin-right: -64%;
 }
 
 button img {
@@ -75,6 +84,7 @@ button img {
 }
 
 select{
+    margin-left: 65%;
     flex: 1;
     color: #fff;
     background:#403d84;
