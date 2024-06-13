@@ -10,6 +10,9 @@
 
     <!--==== Css File Link ======-->
     <link rel="stylesheet" href="./style.css">
+    
+
+    
 
 </head>
 <body>
@@ -18,7 +21,7 @@
 
     <div class="hero">
         <h1>Text to speech <span>converter</span></h1>
-        <textarea placeholder="Write anything here..."></textarea>
+        <textarea class="textarea" placeholder="Write anything here..."></textarea>
         <div class="row">
             <select></select>
             <button><img src="./images/play.png" alt="">Listen</button>    
@@ -38,8 +41,21 @@
                      <!-- | -->
 
    <!--========== Javascript File link ===============-->
-    
-          <script src="./script.js"></script>    
+
+   <div id="comments-section">
+    <h2 id="comments-title">Comments</h2>
+    <form id="comment-form">
+      <label for="username" id="username-label">Name:</label>
+      <input type="text" id="username" required>
+      <label for="comment" id="comment-label">Comment:</label>
+      <textarea id="comment" required></textarea>
+      <button type="submit" id="submit-button">Submit Comment</button>
+    </form>
+
+    </div>
+  </div>
+
+     <script src="./script.js"></script>    
 
 </body>
 </html>
