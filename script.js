@@ -20,4 +20,5 @@ document.querySelector("button").addEventListener("click", () =>{
     speech.text = document.querySelector("textarea").value;
     speech.voice = voices[voicesSelect.value]; // set the voice based on the select value
     window.speechSynthesis.speak(speech);
+
 });
