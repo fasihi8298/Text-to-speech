@@ -34,7 +34,7 @@
 
 }
 
-textarea{
+.textarea{
     width: 600px;
     height: 250px;
     background: #403d84;
@@ -51,7 +51,7 @@ textarea{
 
 }
 
-textarea::placeholder{
+.textarea::placeholder{
     font-size: 16px;
     color: #ddd;
 }
@@ -101,3 +101,49 @@ select{
     background-position-y:calc(100% - 20px);
 
 }
+
+#comments-section {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+  }
+  
+  #comments-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #comment-form {
+    margin-bottom: 20px;
+  }
+  
+  #username-label, #comment-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #username{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+
+  #comment{
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 20px;
+  }
+  
+  #submit-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+ 
