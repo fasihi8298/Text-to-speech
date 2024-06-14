@@ -7,6 +7,9 @@
     box-sizing: border-box;
 
 }
+body{
+  background: linear-gradient(45deg,#010758,#490d61);
+}
 
 .hero{
     width: 100%;
@@ -27,7 +30,7 @@
 }
 
 .hero h1 span{
-    color:orange;
+    color:red;
     /* color: #ff2963; */
     text-align: center;
 
@@ -64,7 +67,7 @@
 }
 
 button{
-    background: orange;
+    background: red;
     /* background: #ff2963; */
     color: #fff;
     font-size: 16px;
@@ -106,20 +109,25 @@ select{
     width: 80%;
     margin: 40px auto;
     padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
+    background: linear-gradient(45deg,#010758,#490d61);
+    box-shadow:  1px 1px 30px white;
+
   }
   
   #comments-title {
+    color: white;
     font-size: 24px;
     margin-bottom: 20px;
+
   }
   
   #comment-form {
     margin-bottom: 20px;
+    border: none;
   }
   
   #username-label, #comment-label {
+    color: white;
     display: block;
     margin-bottom: 10px;
   }
@@ -128,22 +136,34 @@ select{
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    background: #403d84;
+    outline: none;
+    border: none;
+    
   }
 
   #comment{
     width: 100%;
     padding: 50px;
     margin-bottom: 20px;
+    background: #403d84;
+    outline: none;
+    border: none;
+
+
+    
+
+
   }
   
   #submit-button {
-    background-color: #4CAF50;
-    color: #fff;
+    background-color: red;
+    color:white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    
   }
   
  
