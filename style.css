@@ -30,14 +30,15 @@ body{
 }
 
 .hero h1 span{
-    color:red;
-    /* color: #ff2963; */
+
+    color: #ff2963;
     text-align: center;
 
 
 }
 
 .textarea{
+    align-self: center;
     width: 600px;
     height: 250px;
     background: #403d84;
@@ -49,7 +50,7 @@ body{
     border-radius: 10px;
     resize: none;
     margin-bottom: 30px;
-    margin-left: 28%;
+
 
 
 }
@@ -67,8 +68,7 @@ body{
 }
 
 button{
-    background: red;
-    /* background: #ff2963; */
+    background: #ff2963;
     color: #fff;
     font-size: 16px;
     padding: 10px 30px;
@@ -108,7 +108,7 @@ select{
 #comments-section {
     width: 80%;
     margin: 40px auto;
-    padding: 20px;
+    padding: 21px;
     background: linear-gradient(45deg,#010758,#490d61);
     box-shadow:  1px 1px 30px white;
 
@@ -116,8 +116,10 @@ select{
   
   #comments-title {
     color: white;
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 40px;
+    margin-bottom:20px;
+    font-family: cursive;
+    text-align: center;
 
   }
   
@@ -137,33 +139,40 @@ select{
     padding: 10px;
     margin-bottom: 20px;
     background: #403d84;
+    color: #fff;
     outline: none;
     border: none;
     
+  }
+
+  #username::placeholder{
+    font-size: 16px;
+    color: #ddd;
   }
 
   #comment{
     width: 100%;
-    padding: 50px;
+    padding: 10px;
     margin-bottom: 20px;
     background: #403d84;
+    color: #fff;
     outline: none;
     border: none;
+  }
 
-
-    
-
-
+  #comment::placeholder{
+    font-size: 16px;
+    color: #ddd;
   }
   
   #submit-button {
-    background-color: red;
+    background:#ff2963;
     color:white;
     padding: 10px 20px;
+    outline: none;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    
   }
   
  
