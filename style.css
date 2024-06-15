@@ -122,6 +122,11 @@ select{
     text-align: center;
 
   }
+
+  #comments-title span{
+    color: #ff2963;
+
+  }
   
   #comment-form {
     margin-bottom: 20px;
